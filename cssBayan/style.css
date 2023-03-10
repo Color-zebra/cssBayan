@@ -193,6 +193,10 @@ body {
   color: red !important; 
 }
 
+.mem__label:active {
+  cursor: grabbing;
+}
+
 .mem:active .mem__icon svg{
   filter: drop-shadow(0px 0px 20px red) drop-shadow(0px 0px 20px red) drop-shadow(0px 0px 20px red) drop-shadow(0px 0px 20px red);
   fill: red !important;
