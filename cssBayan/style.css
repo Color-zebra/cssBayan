@@ -11,6 +11,7 @@ body {
 
 .title {
   text-align: center;
+  font-size: 2rem;
 }
 
 .accordeon {
@@ -33,6 +34,7 @@ body {
 
 .mem__title {
   margin: 0;
+  font-size: 1.5rem;
 }
 
 .mem__icon svg {
@@ -50,7 +52,7 @@ body {
 }
 
 .mem__input:checked ~ .mem__content {
-  height: 36cqw;
+  height: 54cqw;
 }
 
 .mem__input:checked ~ .mem__title-container .mem__icon svg {
@@ -60,7 +62,7 @@ body {
 
 .mem__content {
   height: 0;
-  width: 60cqw;
+  width: 90cqw;
   background-repeat: no-repeat;
   background-size: cover;
   transition: all .3s ease-out;
@@ -83,6 +85,23 @@ body {
 }
 
 @media (min-width: 819.7px) {
+  .title {
+    font-size: 3rem;
+  }
+  .mem__title {
+    font-size: 2rem;
+  }
+  .mem__icon svg {
+    width: 1.5rem;
+    height: 1.5rem;
+  }
 
+  .mem__input:checked ~ .mem__content {
+    height: 43.2cqw;
+  }
+
+  .mem__content {
+    width: 72cqw;
+  }
 }
 
