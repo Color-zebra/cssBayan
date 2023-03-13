@@ -170,17 +170,17 @@ body {
   }
 
   .mem:hover .mem__title{
-    text-shadow: 0px 0px 10px aqua, 0px 0px 10px aqua;
+    text-shadow: 0 0 0.6rem aqua, 0 0 0.6rem aqua;
     color: aqua;
   }
 
   .mem:hover .mem__icon svg{
-    filter: drop-shadow(0px 0px 20px aqua) drop-shadow(0px 0px 20px aqua) drop-shadow(0px 0px 20px aqua) drop-shadow(0px 0px 20px aqua);
+    filter: drop-shadow(0 0 1.2rem aqua) drop-shadow(0 0 1.2rem aqua) drop-shadow(0 0 1.2rem aqua) drop-shadow(0 0 1.2rem aqua);
     transform: rotate(90deg);
     fill: aqua;
   }
   .mem:hover .mem__content{
-    box-shadow: inset 0px 0px 30px aqua, inset 0px 0px 30px aqua, inset 0px 0px 30px aqua, inset 0px 0px 30px aqua;
+    box-shadow: inset 0 0 2rem aqua, inset 0 0 2rem aqua, inset 0 0 2rem aqua, inset 0 0 2rem aqua;
   }
   .mem:hover .mem__content {
     height: 36cqw;
@@ -189,7 +189,7 @@ body {
 
 /* ACTIVE EFFECT */
 .mem:active .mem__title{
-  text-shadow: 0px 0px 10px red, 0px 0px 10px red;
+  text-shadow: 0 0 0.6rem red, 0 0 0.6rem red;
   color: red !important; 
 }
 
@@ -198,10 +198,10 @@ body {
 }
 
 .mem:active .mem__icon svg{
-  filter: drop-shadow(0px 0px 20px red) drop-shadow(0px 0px 20px red) drop-shadow(0px 0px 20px red) drop-shadow(0px 0px 20px red);
+  filter: drop-shadow(0 0 1.2rem red) drop-shadow(0 0 1.2rem red) drop-shadow(0 0 1.2rem red) drop-shadow(0 0 1.2rem red);
   fill: red !important;
 }
 .mem:active .mem__content{
-  box-shadow: inset 0px 0px 30px red, inset 0px 0px 30px red, inset 0px 0px 30px red, inset 0px 0px 30px red;
+  box-shadow: inset 0 0 2rem red, inset 0 0 2rem red, inset 0 0 2rem red, inset 0 0 2rem red;
 }
 
