@@ -109,27 +109,19 @@ body {
   }
 }
 
-@media (min-width: 819.7px) {
+@media (min-width: 1099.7px) {
   .title {
-    font-size: 3rem;
+    font-size: 4rem;
   }
   .accordeon {
-    max-width: 72cqw;
+    max-width: 68cqw;
   }
   .mem__title {
-    font-size: 2rem;
+    font-size: 3rem;
   }
   .mem__icon svg {
-    width: 1.5rem;
-    height: 1.5rem;
-  }
-
-  .mem__input:checked ~ .mem__content {
-    height: 43.2cqw;
-  }
-
-  .mem__content {
-    width: 72cqw;
+    width: 2rem;
+    height: 2rem;
   }
 }
 
